@@ -1,0 +1,15 @@
+{
+  "name": "Q2A with Coin Bounty",
+  "description": "A Q2A installation with the Coin Bounty plugin installed.",
+  "keywords": [
+    "Q2A",
+    "bitcoin",
+    "auroracoin",
+    "cryptocoin",
+    "altcoin"
+  ],
+  "addons": [
+    "cleardb:ignite"
+  ],
+  "repository": "https://github.com/greatwitenorth/question2answer"
+}
