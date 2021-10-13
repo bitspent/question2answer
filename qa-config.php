@@ -34,12 +34,10 @@
 	define('QA_MYSQL_PORT', '3306');
 */
 
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-define('QA_MYSQL_HOSTNAME', $url["host"]);
-define('QA_MYSQL_USERNAME', $url["user"]);
-define('QA_MYSQL_PASSWORD', $url["pass"]);
-define('QA_MYSQL_DATABASE', substr($url["path"], 1));
+define('QA_MYSQL_HOSTNAME', getenv("QA_MYSQL_HOSTNAME"));
+define('QA_MYSQL_USERNAME', getenv("QA_MYSQL_USERNAME"));
+define('QA_MYSQL_PASSWORD', getenv("QA_MYSQL_PASSWORD"));
+define('QA_MYSQL_DATABASE', getenv("QA_MYSQL_DATABASE"));
 
 /*
 	Ultra-concise installation instructions:
