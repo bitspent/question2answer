@@ -3,7 +3,7 @@ Question2Answer
 
 [![Build Status](https://travis-ci.org/q2a/question2answer.png?branch=master)](https://travis-ci.org/q2a/question2answer)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/greatwitenorth/question2answer)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bitspent/question2answer)
 
 [Question2Answer][Q2A] (Q2A) is a popular free open source Q&A platform for PHP/MySQL, used by over 16,000 sites in 40 languages.
 
