@@ -3180,6 +3180,9 @@ input[type="submit"], button {
 }
 
 .qa-footer {
+	position:fixed;
+	bottom:0;
+	width:100%
 	padding: 10px;
 	background: #2c3e50;
 	color: #fff;
