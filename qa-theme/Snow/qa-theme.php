@@ -154,7 +154,7 @@ class qa_html_theme extends qa_html_theme_base
 	{
 		$this->output(
 			'<div class="qa-attribution">',
-			'&nbsp;| Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>',
+			'&nbsp;| Snow Theme',
 			'</div>'
 		);
 
